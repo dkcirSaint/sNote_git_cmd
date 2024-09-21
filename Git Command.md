@@ -19,7 +19,7 @@
 2. Work directory / Cache directory / Local repository 會被重置至某筆commit 內容。
    > $ git reset --hard <commit id>
 
-4. 可搭配==git reflog==，查詢所有branch上某個想回覆的commit id
+4. 可搭配 **git reflog**，查詢所有branch上某個想回覆的commit id
 5. 只有cache directory會被改變
    > $ git reset --mixed <commit id>
 
@@ -59,7 +59,7 @@ Create patch
    
 2. 修改某筆commit
    
-   > $ git rebase -i  //列出commit 列表，找出要修改的commit，把pick改為edit
+   > $ git rebase -i  `//`列出commit 列表，找出要修改的commit，把pick改為edit
    > $ git add <file>
    > $ git commit --amend
    > $ git rebase --continue
