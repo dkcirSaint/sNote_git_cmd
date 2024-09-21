@@ -59,7 +59,7 @@ Create patch
    
 2. 修改某筆commit
    
-   > $ git rebase -i  `列出commit 列表，找出要修改的commit，把pick改為edit`
+   > $ git rebase -i  (列出commit 列表，找出要修改的commit，把pick改為edit)
    > $ git add <file>
    > $ git commit --amend
    > $ git rebase --continue
